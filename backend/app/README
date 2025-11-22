@@ -1,0 +1,43 @@
+# TO CREATE VIRTUAL ENVIRONMENT 
+py -m venv venv
+
+# TO ACTIVATE VIRTUAL ENVIRONMENT 
+source venv/Scripts/activate
+
+# TO ACTIVATE VIRTUAL ENVIRONMENT IN AVD 
+.\venv\Scripts\activate
+
+# TO ACTIVATE VEVN IN GOOGLE CLOUD SHELL
+source venv/bin/activate
+
+
+Name: Naga Nitish
+current role: ML Ops Engineer
+Skills: Python[4 years], SQL[3 years], Machine Learning[2 years], Artificial Intelligence[1 year], Marketing [3 years], Full stack web developement [3 years] ,React [2 years]
+Career Goal: AI Engineer
+Team: MLOps
+Time: 20 hours
+
+
+# TO CREATE TABLE IN BIGQUERY
+CREATE TABLE `your_project.your_dataset.employees` (
+  EmployeeId INT64 NOT NULL,
+  Name STRING,
+  CurrentRole STRING,
+  Team STRING,
+  CareerGoal STRING,
+  TimeAllocated INT64,
+  Skills STRING,
+  TimeStamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
+);
+
+
+CREATE TABLE `upskilling-agent.learning_agent.course_recommendations` (
+  EmployeeId INT64,
+  CourseName STRING,
+  Level STRING,
+  Platform STRING,
+  Description STRING,
+  Link STRING,
+  Skill STRING
+);
